@@ -1,0 +1,12 @@
+Senior Backend Engineer — Node.js Platform Team
+
+We are hiring a Senior Backend Engineer to join our platform team building
+high-throughput APIs for a fintech product used by millions of users.
+
+Requirements: 5+ years of experience.
+
+Skills:
+Node.js, TypeScript, PostgreSQL, Docker, Kubernetes, AWS, REST, GraphQL, Redis, CI/CD, Git
+
+Responsibilities include designing scalable services, mentoring junior engineers,
+and owning production reliability for core payment APIs.

@@ -1,0 +1,20 @@
+Fatima Siddiqui
+fatima.siddiqui@example.com
++91 99887 76655
+
+Skills:
+Node.js, TypeScript, Kubernetes, GraphQL, Redis, PostgreSQL, CI/CD, AWS, Docker
+
+Experience:
+7 years of experience designing distributed backend systems, including 3 years
+leading a platform team for a fintech company. Deep expertise in payment
+processing and reliability engineering.
+
+Education:
+M.S. Computer Science, BITS Pilani, 2016
+
+Certifications:
+Certified Kubernetes Administrator (CKA)
+
+Projects:
+Real-time Fraud Detection Pipeline, Multi-region Payments API

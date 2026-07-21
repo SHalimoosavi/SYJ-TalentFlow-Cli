@@ -1,0 +1,19 @@
+Asha Verma
+asha.verma@example.com
++91 98765 43210
+
+Skills:
+Node.js, TypeScript, PostgreSQL, Docker, AWS, REST, Git, Jest
+
+Experience:
+6 years as a Backend Engineer building high-scale Node.js services for
+e-commerce platforms. Led migration from monolith to microservices on AWS.
+
+Education:
+B.Tech in Computer Science, IIT Hyderabad, 2018
+
+Certifications:
+AWS Certified Solutions Architect
+
+Projects:
+Payment Gateway Service, Order Orchestration Platform

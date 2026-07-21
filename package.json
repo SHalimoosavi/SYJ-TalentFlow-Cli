@@ -1,0 +1,67 @@
+{
+  "name": "talentflow-cli",
+  "version": "1.0.0",
+  "description": "AI-powered recruitment automation toolkit for the command line \u2014 resume screening, candidate ranking, interview prep, and recruiter communication. Cross-platform, dependency-light, and Termux-friendly.",
+  "type": "module",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "bin": {
+    "talentflow": "./bin/talentflow.js"
+  },
+  "main": "index.js",
+  "files": [
+    "bin",
+    "src",
+    "index.js",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "start": "node bin/talentflow.js",
+    "dev": "node --watch bin/talentflow.js",
+    "test": "node --test tests/",
+    "lint": "eslint src bin index.js",
+    "lint:fix": "eslint src bin index.js --fix",
+    "format": "prettier --write \"**/*.{js,json,md}\"",
+    "format:check": "prettier --check \"**/*.{js,json,md}\"",
+    "doctor": "node bin/talentflow.js doctor"
+  },
+  "keywords": [
+    "cli",
+    "recruitment",
+    "ats",
+    "resume-parser",
+    "hr-tech",
+    "ai",
+    "openai",
+    "anthropic",
+    "openrouter",
+    "hiring",
+    "termux",
+    "candidate-screening"
+  ],
+  "author": "SAYANJALI NEXUS PRIVATE LIMITED",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SHalimoosavi/talentflow-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SHalimoosavi/talentflow-cli/issues"
+  },
+  "homepage": "https://github.com/SHalimoosavi/talentflow-cli#readme",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "cli-table3": "^0.6.5",
+    "commander": "^12.1.0",
+    "dotenv": "^16.4.5",
+    "ora": "^8.1.0",
+    "prompts": "^2.4.2"
+  },
+  "devDependencies": {
+    "eslint": "^9.9.0",
+    "prettier": "^3.3.3"
+  }
+}
