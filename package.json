@@ -21,7 +21,7 @@
   "scripts": {
     "start": "node bin/talentflow.js",
     "dev": "node --watch bin/talentflow.js",
-    "test": "node --test tests/",
+    "test": "node --test tests/*.test.js",
     "lint": "eslint src bin index.js",
     "lint:fix": "eslint src bin index.js --fix",
     "format": "prettier --write \"**/*.{js,json,md}\"",
