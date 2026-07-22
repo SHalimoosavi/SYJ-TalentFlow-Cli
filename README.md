@@ -366,7 +366,7 @@ cp .env.example .env
 ```
 
 | Variable                         | Description                                  | Default           |
-| --------------------------------- | --------------------------------------------- | ------------------ |
+| -------------------------------- | -------------------------------------------- | ----------------- |
 | `AI_PROVIDER`                    | `anthropic` \| `openai` \| `openrouter`      | `anthropic`       |
 | `MODEL`                          | Model name for the selected provider         | provider-specific |
 | `TEMPERATURE`                    | Sampling temperature (0–1)                   | `0.3`             |
@@ -417,9 +417,9 @@ classDiagram
 ```
 
 | Provider   | Env var              | Notes                              |
-| ---------- | --------------------- | ----------------------------------- |
+| ---------- | -------------------- | ---------------------------------- |
 | Anthropic  | `ANTHROPIC_API_KEY`  | Default provider                   |
-| OpenAI     | `OPENAI_API_KEY`     |                                     |
+| OpenAI     | `OPENAI_API_KEY`     |                                    |
 | OpenRouter | `OPENROUTER_API_KEY` | Access many models through one key |
 
 Adding a new provider takes **two files** — see
