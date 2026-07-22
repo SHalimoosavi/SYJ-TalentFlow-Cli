@@ -24,8 +24,8 @@
     "test": "node --test tests/*.test.js",
     "lint": "eslint src bin index.js",
     "lint:fix": "eslint src bin index.js --fix",
-    "format": "prettier --write \"**/*.{js,json,md}\"",
-    "format:check": "prettier --check \"**/*.{js,json,md}\"",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
     "doctor": "node bin/talentflow.js doctor"
   },
   "keywords": [
