@@ -1,0 +1,20 @@
+# Force a consistent LF line ending on checkout, on every OS — including
+# Windows, where Git's default core.autocrlf=true otherwise rewrites LF to
+# CRLF and breaks Prettier's default endOfLine:"lf" expectation across
+# every text file in the repo.
+* text=auto eol=lf
+
+# Windows batch/PowerShell scripts (if any are ever added) should keep
+# native CRLF regardless of the rule above.
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+
+# Binary assets — never touch line endings.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.woff binary
+*.woff2 binary
