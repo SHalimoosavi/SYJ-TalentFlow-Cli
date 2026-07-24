@@ -2,13 +2,13 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:818CF8,100:F59E0B&height=200&section=header&text=TalentFlow%20CLI&fontSize=52&fontColor=F59E0B&animation=fadeIn&fontAlignY=38&desc=AI-Powered%20Recruitment%20Automation%20Toolkit&descAlignY=58&descSize=18&descColor=FFFFFF" width="100%"/>
 
-<a href="https://github.com/SHalimoosavi/talentflow-cli">
+<a href="https://github.com/SHalimoosavi/SYJ-TalentFlow-Cli">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=900&color=F59E0B&center=true&vCenter=true&width=700&lines=Screen+resumes+at+the+speed+of+thought;Parse+%E2%86%92+Score+%E2%86%92+Rank+%E2%86%92+Interview+%E2%86%92+Hire;Runs+on+Windows%2C+Linux%2C+macOS+%26+Android+Termux;Zero+native+dependencies.+Zero+bloat.;Bring+your+own+AI%3A+Anthropic+%7C+OpenAI+%7C+OpenRouter" alt="Typing SVG" />
 </a>
 
 <br/>
 
-[![CI](https://github.com/SHalimoosavi/talentflow-cli/actions/workflows/ci.yml/badge.svg)](https://github.com/SHalimoosavi/talentflow-cli/actions/workflows/ci.yml)
+[![CI](https://github.com/SHalimoosavi/SYJ-TalentFlow-Cli/actions/workflows/ci.yml/badge.svg)](https://github.com/SHalimoosavi/SYJ-TalentFlow-Cli/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-F59E0B.svg?style=flat-square)](LICENSE)
 [![Node.js](https://img.shields.io/badge/node-%3E%3D22-818CF8?style=flat-square&logo=node.js&logoColor=white)](https://nodejs.org)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-0D1117?style=flat-square&logo=github)](CONTRIBUTING.md)
@@ -269,8 +269,8 @@ session, or run any command directly for scripting/CI use.
 <summary><b>🪟 Windows (PowerShell or CMD)</b></summary>
 
 ```powershell
-git clone https://github.com/SHalimoosavi/talentflow-cli.git
-cd talentflow-cli
+git clone https://github.com/SHalimoosavi/SYJ-TalentFlow-Cli.git
+cd SYJ-TalentFlow-Cli
 npm install
 npm link      # optional: makes `talentflow` available globally
 ```
@@ -281,8 +281,8 @@ npm link      # optional: makes `talentflow` available globally
 <summary><b>🐧 Linux / 🍎 macOS</b></summary>
 
 ```bash
-git clone https://github.com/SHalimoosavi/talentflow-cli.git
-cd talentflow-cli
+git clone https://github.com/SHalimoosavi/SYJ-TalentFlow-Cli.git
+cd SYJ-TalentFlow-Cli
 npm install
 npm link      # optional: makes `talentflow` available globally
 ```
@@ -294,8 +294,8 @@ npm link      # optional: makes `talentflow` available globally
 
 ```bash
 pkg update && pkg install nodejs-lts git -y
-git clone https://github.com/SHalimoosavi/talentflow-cli.git
-cd talentflow-cli
+git clone https://github.com/SHalimoosavi/SYJ-TalentFlow-Cli.git
+cd SYJ-TalentFlow-Cli
 npm install
 node bin/talentflow.js doctor   # sanity-check your environment
 ```
@@ -366,7 +366,7 @@ cp .env.example .env
 ```
 
 | Variable                         | Description                                  | Default           |
-| -------------------------------- | -------------------------------------------- | ----------------- |
+| --------------------------------- | --------------------------------------------- | ------------------ |
 | `AI_PROVIDER`                    | `anthropic` \| `openai` \| `openrouter`      | `anthropic`       |
 | `MODEL`                          | Model name for the selected provider         | provider-specific |
 | `TEMPERATURE`                    | Sampling temperature (0–1)                   | `0.3`             |
@@ -417,9 +417,9 @@ classDiagram
 ```
 
 | Provider   | Env var              | Notes                              |
-| ---------- | -------------------- | ---------------------------------- |
+| ---------- | --------------------- | ----------------------------------- |
 | Anthropic  | `ANTHROPIC_API_KEY`  | Default provider                   |
-| OpenAI     | `OPENAI_API_KEY`     |                                    |
+| OpenAI     | `OPENAI_API_KEY`     |                                     |
 | OpenRouter | `OPENROUTER_API_KEY` | Access many models through one key |
 
 Adding a new provider takes **two files** — see
@@ -484,9 +484,9 @@ project follows the [Contributor Covenant](CODE_OF_CONDUCT.md).
 
 <div align="center">
 
-[![Contributors](https://img.shields.io/github/contributors/SHalimoosavi/talentflow-cli?style=flat-square&color=F59E0B)](https://github.com/SHalimoosavi/talentflow-cli/graphs/contributors)
-[![Issues](https://img.shields.io/github/issues/SHalimoosavi/talentflow-cli?style=flat-square&color=818CF8)](https://github.com/SHalimoosavi/talentflow-cli/issues)
-[![Stars](https://img.shields.io/github/stars/SHalimoosavi/talentflow-cli?style=flat-square&color=F59E0B)](https://github.com/SHalimoosavi/talentflow-cli/stargazers)
+[![Contributors](https://img.shields.io/github/contributors/SHalimoosavi/SYJ-TalentFlow-Cli?style=flat-square&color=F59E0B)](https://github.com/SHalimoosavi/SYJ-TalentFlow-Cli/graphs/contributors)
+[![Issues](https://img.shields.io/github/issues/SHalimoosavi/SYJ-TalentFlow-Cli?style=flat-square&color=818CF8)](https://github.com/SHalimoosavi/SYJ-TalentFlow-Cli/issues)
+[![Stars](https://img.shields.io/github/stars/SHalimoosavi/SYJ-TalentFlow-Cli?style=flat-square&color=F59E0B)](https://github.com/SHalimoosavi/SYJ-TalentFlow-Cli/stargazers)
 
 </div>
 
